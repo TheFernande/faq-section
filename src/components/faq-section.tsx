@@ -8,8 +8,10 @@ export default function FaqSection() {
     <section className='gfe-gradient-container'>
       {/* Heading block */}
       <div className='flex flex-col items-center gap-5 text-center'>
-        <h1 className='text-3xl font-semibold text-neutral-900'>Frequently Asked Questions</h1>
-        <span className='text-lg text-neutral-600'>Choose any questions you need</span>
+        <h1 className='text-3xl font-semibold text-neutral-900 md:text-5xl'>
+          Frequently Asked Questions
+        </h1>
+        <span className='text-lg text-neutral-600 md:text-xl'>Choose any questions you need</span>
       </div>
 
       {/* FAQ Section block */}
@@ -19,8 +21,8 @@ export default function FaqSection() {
           {/* FAQ content goes here */}
           {faqContentData.map((faqItem, index) => (
             <FaqItem
-              key={index}
-              position={index}
+              key={`faq-item-${faqItem.position}`}
+              position={faqItem.position}
               title={faqItem.title}
               content={faqItem.content}
               isLast={index === faqContentData.length - 1}

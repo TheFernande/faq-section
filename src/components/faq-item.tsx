@@ -15,7 +15,9 @@ const FaqItem = (props: TFaqItem) => {
     <>
       <Accordion.Root
         className='h-fit w-full'
-        type='multiple'
+        type='single'
+        defaultValue={`item-${position}`}
+        collapsible
       >
         <Accordion.Item value={`item-${position}`}>
           <AccordionTrigger>{title}</AccordionTrigger>
