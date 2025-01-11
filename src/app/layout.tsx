@@ -6,8 +6,8 @@ import "../styles/global.css";
 const noto = Noto_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Title", // TODO: Change the title
-  description: "Description" // TODO: Change the description
+  title: "FAQ Section",
+  description: "A FAQ section built with Next.js"
 };
 
 export default function RootLayout({

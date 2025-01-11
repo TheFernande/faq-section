@@ -1,7 +1,7 @@
 {
-  "name": "starter",
+  "name": "faq-section",
   "version": "0.1.0",
-  "description": "A starter project for Next.js with Tailwind CSS",
+  "description": "A FAQ section component",
   "private": true,
   "author": "Jade Hernandez",
   "license": "ISC",
@@ -13,7 +13,9 @@
   },
   "dependencies": {
     "@formkit/auto-animate": "^0.8.2",
+    "@radix-ui/react-accordion": "^1.2.2",
     "autoprefixer": "^10.4.16",
+    "classnames": "^2.5.1",
     "lucide-react": "^0.464.0",
     "next": "14.2.20",
     "react": "^18.2.0",
