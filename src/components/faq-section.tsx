@@ -9,7 +9,7 @@ export default function FaqSection() {
       {/* Heading block */}
       <div className='flex flex-col items-center gap-5 text-center'>
         <h1 className='text-3xl font-semibold text-neutral-900 md:text-5xl'>
-          Frequently asked questions
+          Frequently&nbsp;asked questions
         </h1>
         <span className='block text-lg text-neutral-600 md:text-xl lg:hidden'>
           Get all your questions answered
